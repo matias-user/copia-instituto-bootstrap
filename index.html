@@ -15,10 +15,10 @@
     <nav class="navbar navbar-light bg-secondary mt-0">
       <div class="container-fluid">
                 <div class="col-md-6 col-12 d-flex flex-column ">
-                        <a class="text-decoration-none m-0" href="#"><p class="text-white  mb-0 mt-0 p-0 h1">Instituto</p></a>
-                        <a class="text-decoration-none m-0 " href="#"><p class="text-white mb-0 mt-0 fw-light h3">Tecnico Profesional</p></a>
+                        <a class="text-decoration-none m-0" href="#"><p class="text-white text-uppercase mb-0 mt-0 p-0 h1">Instituto</p></a>
+                        <a class="text-decoration-none m-0 " href="#"><p class="text-white text-uppercase mb-0 mt-0 fw-light h3">Tecnico Profesional</p></a>
                 </div>
-                    <div class="col-md-6 col-12 d-grid gap-1 d-sm-flex justify-content-end mt-2 align-items-center">
+                    <div class="col-sm-6 col-12 d-grid gap-sm-1 d-sm-flex justify-content-sm-end mt-2 align-items-center">
                     <div class="dropdown ">
                         <button class="btn btn-dark dropdown-toggle " type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
                           Manuales
@@ -70,7 +70,7 @@
     </header>
 
     <section>
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel " >
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel " >
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -92,11 +92,36 @@
 
     <section class="bg-secondary mt-5" >
 
-      <h2 class="text-center display-4" >Noticias del sitio</h2>
-
+      <div class="container-fluid bg-light">
+        <h2 class="text-center display-4 text-secondary text-uppercase mt-3" >Noticias del sitio</h2>
+      <div class="container mt-3 bg-white">
+        <div class="row mt-3 ">
+          <div class="col-12 col-sm-6   d-flex align-items-center flex-column justify-content-center">
+                <h3 class="text-danger display-5 text-uppercase">Sistema de solicitudes de jefe de carrera</h3>
+                <blockquote class="text-secondary ">28 de Marzo de 2020, 22:00</blockquote>
+          </div>
+          <div class="col-12 col-sm-6 ">  
+                <img src="./img/articulo1.jpg" class="img-fluid " alt="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-6 ">
+            <img src="./img/articulo2.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-12 col-sm-6  d-flex flex-column align-items-center justify-content-center">
+            <h3 class="text-danger display-5 text-uppercase">Nueva licencia educacional esucomex office: 365</h3>
+            <blockquote class="text-secondary ">23 de Marzo de 2020, 22:00</blockquote>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+        <button type="button" class="btn btn-outline-danger my-2 " ><p>Mas noticias</p></button>
+      </div>
+      </div>
+    </div>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-</body>
+
+  </body>
 </html>
